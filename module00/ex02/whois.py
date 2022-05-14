@@ -19,9 +19,6 @@ def check_number(str):
         print("AssertionError: argument is not integer")
         exit()
 
-def evenOrOdd(nb):
-    return nb % 2
-
 if argc > 1:
     if argc == 2:
         value = check_number(sys.argv[1])
