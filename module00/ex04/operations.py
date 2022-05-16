@@ -1,8 +1,5 @@
 import sys
 
-import sys
-
-
 def check_number(str):
     sign = False
     tmp = str
